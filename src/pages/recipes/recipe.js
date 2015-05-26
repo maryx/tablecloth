@@ -1,6 +1,8 @@
 import React from 'react';
+import $ from 'jquery';
 
 export default React.createClass({
+    displayName: 'Recipe',
     componentDidMount() {
         this.hideRecipe = true;
     },
@@ -15,7 +17,6 @@ export default React.createClass({
         return;
     },
     render() {
-        console.log(this);
         const body = this.props.children || {};
         const intro = (body.intro || '').toString();
         const recipe = (body.recipe || '').toString();
@@ -29,12 +30,13 @@ export default React.createClass({
         const background = {'background': 'url(' + this.props.background + ') fixed no-repeat'};
 
         return (
-                <div className='background' style={background} onClick={this.handleClick}>
+                <div className='background' style={background}>
+                <button className='minimize' onClick={this.handleClick}>Minimize Recipe</button>
                 <div className='post-background'>
                 <div className='post'>
                 <h1> {this.props.title} </h1>
                 <div className='intro'> {intro} </div>
-                <a className='original-recipe' href={recipe}>Original Recipe</a>
+                <a className='original-recipe' href={recipe} target='_blank'>Original Recipe</a>
                 <div className='ingredients'>
                 <h2>Ingredients</h2>
                 <ul>{ingredients}</ul></div>

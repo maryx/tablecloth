@@ -1,6 +1,7 @@
-import webpackConfig from 'hjs-webpack';
+// Can't use ES6 for the config file
+var getConfig = require('hjs-webpack');
 
-export default webpackConfig({
+module.exports = getConfig({
     in: 'src/app.js',
     out: 'public',
     isDev: process.env.NODE_ENV !== 'production'
