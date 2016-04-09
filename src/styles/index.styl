@@ -1,51 +1,63 @@
-.background
-    width: 1270px;
-    height: 700px;
-    border-bottom: 5px solid black;
+page-height = 800px;
+page-width = 1200px;
 
-.post-background /* does the opacity */
-    width: 520px;
-    height: 620px;
-    background-color: #A7C1EB; /* light blue */
-    opacity: 0.8;
-    border-radius: 5px;
-    border: 2px solid navy;
+body
+    height: page-height;
+    overflow-x: hidden;
 
-.post
-    padding-right: 10px;
-    font-family: 'Georgia';
-    color: black;
-    margin: 10px;
-    width: 500px;
-    height: 600px;
-    overflow: auto;
+    .container
+        height: page-height;
+        overflow-x: hidden;
+        overflow-y: scroll;
 
-.menu-list
-    padding: 10px;
+    .background
+        width: page-width;
+        height: page-height;
+        border-bottom: 5px solid black;
 
-.dish
-    border: solid 2px orange;
-    border-radius: 3px;
-    background-color: salmon;
-    padding: 8px;
-    margin-bottom: 10px;
-    font-family: 'Georgia';
-    font-weight: 500;
-    width: 300px;
-    text-align: center;
-    &:hover
-        cursor: pointer;
-        border-color: black;
+    .post-background /* does the opacity */
+        width: 520px;
+        height: 620px;
+        background-color: #A7C1EB; /* light blue */
+        opacity: 0.8;
+        border-radius: 5px;
+        border: 2px solid navy;
 
-a.original-recipe
-    float: right;
-    text-decoration: none;
-    padding: 3px;
-    border: solid 2px orange;
-    border-radius: 2px;
-    color: black;
-    background-color: salmon;
-    &:hover
+    .post
+        padding-right: 10px;
+        font-family: 'Georgia';
+        color: black;
+        margin: 10px;
+        width: 500px;
+        height: 600px;
+        overflow: auto;
+
+    .menu-list
+        padding: 10px;
+
+    .dish
+        border: solid 2px orange;
+        border-radius: 3px;
+        background-color: salmon;
+        padding: 8px;
+        margin-bottom: 10px;
+        font-family: 'Georgia';
         font-weight: 500;
-        color: navy;
-        border-color: black;
+        width: 300px;
+        text-align: center;
+        &:hover
+            cursor: pointer;
+            border-color: black;
+
+    a.original-recipe
+        float: right;
+        text-decoration: none;
+        padding: 3px;
+        border: solid 2px orange;
+        border-radius: 2px;
+        color: black;
+        background-color: salmon;
+        &:hover
+            font-weight: 500;
+            color: navy;
+            border-color: black;

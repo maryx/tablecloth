@@ -1,0 +1,48 @@
+{
+    "pink-lemonade-caramels": {
+        "background" : "https://40.media.tumblr.com/280dcfdfa66877e3234498e8bd9ec068/tumblr_nkij90UomP1uniclyo1_1280.jpg",
+        "body" : {
+            "ingredients" : [ "1 c white sugar", "4 tbsp butter", "dollop of pink lemonade concentrate", "0.5 c milk", "pinch of salt" ],
+            "intro" : "",
+            "method" : [ "Mix everything in a saucepan", "Boil for 10-20 minutes?", "Let cool overnight. It hardens." ],
+            "notes" : "I was supposed to make caramel sauce but I let the sauce boil for about 5 or 10 mins too long.",
+            "recipe" : "http://www.foodnetwork.com/recipes/ree-drummond/easy-caramel-sauce-recipe.html"
+        },
+        "customCss" : "",
+        "date" : "March 2015",
+        "title" : "Pink Lemonade Caramels"
+    },
+    "giant-egg-tart": {
+        "background" : "https://36.media.tumblr.com/e2649e35029bfc58a8d739038e79bc5e/tumblr_no5st1dnE71uniclyo1_1280.jpg",
+        "body" : {
+            "ingredients" : [ "For TWO 9-inch tart crusts:", "1 c powdered sugar", "3 c flour", "1 c butter, softened at room temp", "1 egg", "vanilla", "some water", "For ONE 9-inch tart filling:", "1/3 c white sugar", "0.75 c water", "4 eggs", "0.5 c milk", "vanilla" ],
+            "intro" : "Hey! Giant Egg Tart!",
+            "method" : [ "The recipe for CRUST (above) makes TWO 9-inch tarts. To be even more technical, it makes about 2.2 9-inch tarts. I made the dough and froze half of it.", "Cream butter and powdered sugar", "Add in flour, egg, vanilla", "Form a dough ball. Add a few spoons of water (I think I ended up using about 6 tbsp?", "Split in half (or, 0.45, 0.45, and 0.10. You can use the 0.10 to make one mini tart). Freeze. It is way easier to roll out once defrosted for a few hours", "Roll out and put into a 9-inch (20cm) pie pan. Trim edges against top of pie pan", "Microwave white sugar and water for 1 min.", "Beat eggs. Add milk and vanilla. Add sugar water (add slowly if it isn't cool)", "Pour egg mixture through a sieve, into pie pan", "Trim edges of pie crust until crust rises about 1 cm above the egg mixture.", "Bake on middle rack of oven, at 350F for about 30 minutes and at 375F for about 15 minutes (40-45 min total). Or bake at 375F first and then lower the temperature to 350F when the crust looks done. The custard should look kind of filmy at the top and obviously not be liquid." ],
+            "notes" : "Just keep checking on it until it looks done...",
+            "recipe" : "http://allrecipes.com/Recipe/Hong-Kong-Style-Egg-Tarts"
+        },
+        "customCss" : "",
+        "date" : "Sunday 10 May 2015",
+        "title" : "Giant Egg Tart"
+    },
+    "bread" : {
+        "background" : "http://41.media.tumblr.com/6ef3d51520b347ef61511719b218a014/tumblr_nlo6ydoRNt1uniclyo1_1280.jpg",
+        "body" : {
+            "intro" : "Soft rye bread with fresh fennel! Oven spring was amazing (1-2 cm?), although the top collapsed slightly after about 30 minutes.",
+            "notes" : "Ingredients",
+            "recipe" : "http://allrecipes.com/Recipe/Real-NY-Jewish-Rye-Bread"
+        },
+        "date" : "5/8/2015",
+        "title" : "Title2"
+    },
+    "bread2": {
+        "background" : "http://40.media.tumblr.com/e3c16137e710a57c27d85123822921f8/tumblr_nln57ebv9m1uniclyo2_1280.jpg",
+        "body" : {
+            "intro" : "Soft rye bread with fresh fennel! Oven spring was amazing (1-2 cm?), although the top collapsed slightly after about 30 minutes.",
+            "notes" : "Notes",
+            "recipe" : "http://allrecipes.com/Recipe/Real-NY-Jewish-Rye-Bread"
+        },
+        "date" : "5/8/20152",
+        "title" : "Title"
+    }
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import Recipe from '../recipes/recipe';
 import $ from 'jquery';
 
 export default React.createClass({
